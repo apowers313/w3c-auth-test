@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>A Simple Stub Test</title>
+<link rel="author" title="Adam Powers" href="adam@fidoalliance.org">
+<link rel="help" href="http://fidoalliance.org/specs/TBD">
+<script src="/resources/testharness.js"></script>
+<script src="/resources/testharnessreport.js"></script>
+<script>
+test(function() {
+	assert_equals(1, 1, "one and one are the same thing");
+}, "tautalogical assert testing must pass");
+
+test(function() {
+	assert_equals(1, 2, "one and two are not the same thing");
+}, "false assert must fail");
+</script>
